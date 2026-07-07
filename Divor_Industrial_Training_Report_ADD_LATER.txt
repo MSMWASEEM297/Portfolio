@@ -1,6 +1,0 @@
-Divor Automations industrial training report was referenced in the uploaded content, but the available sandbox files contained only one PDF named 'Training Report.pdf'.
-
-To add the full Divor report later:
-1. Rename the PDF to Divor_Industrial_Training_Report.pdf
-2. Put it inside the docs folder.
-3. In index.html, change the Divor report link from this TXT file to docs/Divor_Industrial_Training_Report.pdf
