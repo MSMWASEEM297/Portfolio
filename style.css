@@ -66,7 +66,13 @@ h3 { font-size: 1.25rem; }
 .quick-stats strong { display: block; font-size: 1.8rem; line-height: 1; color: var(--primary); }
 .quick-stats span { color: var(--muted); font-size: .9rem; font-weight: 600; }
 .hero-card { position: relative; background: var(--surface); border: 1px solid var(--line); padding: 18px; border-radius: 38px; box-shadow: var(--shadow); transform: rotate(1deg); }
-.hero-card img { border-radius: 28px; aspect-ratio: 1 / 1; object-fit: cover; }
+.hero-card img {
+  width: 2in;
+  height: 2in;
+  border-radius: 28px;
+  object-fit: cover;
+  margin: 0 auto;
+}
 .hero-badge { position: absolute; left: 24px; right: 24px; bottom: 28px; text-align: center; padding: 12px 16px; border-radius: 999px; color: #fff; font-weight: 800; background: rgba(15, 23, 42, .78); backdrop-filter: blur(8px); }
 
 .section { padding: 96px 0; }
