@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hydroponic Cultivation System | Mohamed Waseem Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Project page navigation">
+      <a class="logo" href="index.html#home" aria-label="Go to home">Waseem<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Training</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero-shell">
+      <div class="container project-hero-grid">
+        <div class="project-hero-copy">
+          <a class="back-link" href="index.html#projects">← Back to projects</a>
+          <p class="eyebrow">Final Year Project • 2026</p>
+          <h1 class="detail-title">Real-Time Automated Hydroponic Cultivation System using IoT and Sensors</h1>
+          <p class="detail-lead">An IoT-based hydroponic automation system designed to monitor growing conditions, coordinate pumps and valves, and support web/mobile monitoring.</p>
+        </div>
+        <div class="project-hero-card card">
+          <img class="js-lightbox" src="images/hydroponic-dashboard.png" alt="Hydroponic IoT dashboard preview" />
+          <div class="project-hero-tags">
+            <span>IoT</span><span>ESP32</span><span>Raspberry Pi 5</span><span>MQTT</span><span>Server.js</span><span>Dashboard</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="project-detail-grid">
+        <aside class="project-summary-card card">
+          <span class="pill">Main Function</span>
+          <h3>Automated hydroponic monitoring and control</h3>
+          <p>Monitors pH, TDS, water level, temperature and humidity while controlling pumps, valves and nutrient dosing.</p>
+        </aside>
+
+        <div class="project-content-stack">
+          <article class="detail-module card">
+            <span class="module-number">01</span>
+            <h2>Project Scope</h2>
+            <p>The project focuses on a low-cost automated hydroponic cultivation system for monitoring and controlling pH, TDS, water level, temperature, humidity and actuator states. The system combines ESP32 sensor/control nodes with a Raspberry Pi 5 local server for real-time data communication, dashboard visualization and automation logic.</p>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">02</span>
+            <h2>My Role</h2>
+            <p>My main contribution included Raspberry Pi 5 local server configuration, Mosquitto MQTT broker setup, Server.js backend development, JSON payload processing, dashboard integration, mobile application support, Docker deployment, VNC access, Cloudflare/domain-based remote access and support for hardware integration/testing.</p>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">03</span>
+            <h2>Technical Implementation</h2>
+            <ul>
+              <li>Configured ESP32 nodes to publish sensor and actuator data through MQTT.</li>
+              <li>Used Raspberry Pi 5 as the local server and central controller.</li>
+              <li>Processed JSON telemetry data through a Server.js backend.</li>
+              <li>Displayed separate ESP32 reading cards on the web dashboard.</li>
+              <li>Implemented control concepts for valve-pump coordination, pH-based nutrient dosing, manual mode and emergency stop.</li>
+            </ul>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">04</span>
+            <h2>Results</h2>
+            <p>The system successfully integrated ESP32 nodes, Raspberry Pi server, MQTT communication, backend logic, dashboard visualization, mobile monitoring and relay-controlled actuators. It improved system visibility by showing each ESP32 node separately and supported automatic hydroponic control operations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Project Gallery</p>
+          <h2>Results</h2>
+         </div>
+        <div class="detail-gallery detail-gallery-five">
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/hydroponic-project-1.jpeg" alt="Hydroponic project image 1" />
+           
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/hydroponic-project-2.jpeg" alt="Hydroponic project image 2" />
+          
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/hydroponic-project-3.jpeg" alt="Hydroponic project image 3" />
+    
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/hydroponic-project-4.jpeg" alt="Hydroponic project image 4" />
+     
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/hydroponic-project-5.jpeg" alt="Hydroponic project image 5" />
+           
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Mohamed Sheriff Mohamed Waseem. All rights reserved.</p>
+      <a href="index.html#projects">Back to projects ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

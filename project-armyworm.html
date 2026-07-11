@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Armyworm Pest Detection System | Mohamed Waseem Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Project page navigation">
+      <a class="logo" href="index.html#home" aria-label="Go to home">Waseem<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Training</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero-shell">
+      <div class="container project-hero-grid">
+        <div class="project-hero-copy">
+          <a class="back-link" href="index.html#projects">← Back to projects</a>
+          <p class="eyebrow">Design Project • 2025</p>
+          <h1 class="detail-title">Armyworm Pest Detection and Ultrasonic Repeller System</h1>
+          <p class="detail-lead">An intelligent agricultural prototype for camera-based pest detection and non-chemical ultrasonic repelling in cornfields.</p>
+        </div>
+        <div class="project-hero-card card">
+          <img class="js-lightbox" src="images/armyworm-project.png" alt="Armyworm detection and ultrasonic repeller prototype" />
+          <div class="project-hero-tags">
+            <span>Raspberry Pi 5</span><span>Camera</span><span>OpenCV</span><span>TensorFlow Lite</span><span>GPIO</span><span>Ultrasonic</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="project-detail-grid">
+        <aside class="project-summary-card card">
+          <span class="pill">Main Function</span>
+          <h3>Detect pest and activate ultrasonic repeller</h3>
+          <p>Uses image recognition to detect armyworms and GPIO control to trigger an ultrasonic pest repelling circuit.</p>
+        </aside>
+
+        <div class="project-content-stack">
+          <article class="detail-module card">
+            <span class="module-number">01</span>
+            <h2>Project Scope</h2>
+            <p>The project aimed to create a practical and eco-friendly system for early armyworm detection in cornfields. It combines image-based recognition with an ultrasonic repelling mechanism to reduce dependence on manual monitoring and chemical pesticides.</p>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">02</span>
+            <h2>My Role</h2>
+            <p>My involvement included supporting system design, prototype development, Raspberry Pi 5 integration, camera-based image recognition workflow, GPIO control, ultrasonic repeller circuit testing and documentation of the detection-to-response process.</p>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">03</span>
+            <h2>Technical Implementation</h2>
+            <ul>
+              <li>Used Raspberry Pi 5 as the main controller for image capture and actuation.</li>
+              <li>Integrated a camera module for image-based pest detection.</li>
+              <li>Used Python, OpenCV and TensorFlow Lite / Teachable Machine concepts for detection.</li>
+              <li>Implemented servo scanning to increase field coverage.</li>
+              <li>Triggered an ultrasonic repeller through GPIO when armyworm detection occurred.</li>
+              <li>Constructed a Colpitts oscillator-based ultrasonic repeller circuit.</li>
+            </ul>
+          </article>
+
+          <article class="detail-module card">
+            <span class="module-number">04</span>
+            <h2>Results</h2>
+            <p>The prototype demonstrated a complete detection-to-response cycle by identifying armyworm images and activating the ultrasonic repeller. The system provided a sustainable proof-of-concept for low-cost pest control suitable for small- and medium-scale agricultural applications.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Project Gallery</p>
+          <h2>Results</h2>
+         
+        </div>
+        <div class="detail-gallery detail-gallery-five">
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/armyworm-project-1.png" alt="Armyworm project image 1" />
+            
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/armyworm-project-2.png" alt="Armyworm project image 2" />
+       
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/armyworm-project-3.png" alt="Armyworm project image 3" />
+           
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/armyworm-project-4.png" alt="Armyworm project image 4" />
+          
+          </figure>
+          <figure class="gallery-slot">
+            <img class="js-lightbox" src="images/armyworm-project-5.png" alt="Armyworm project image 5" />
+           
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Mohamed Sheriff Mohamed Waseem. All rights reserved.</p>
+      <a href="index.html#projects">Back to projects ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
